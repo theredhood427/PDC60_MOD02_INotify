@@ -12,6 +12,8 @@ namespace PDC60Module02.ViewModel
         public student StudentSet { get; set; }
         public Command SubmitEntry { get; set; }
 
+        public Command ClearEntry { get; set; }
+
         public string SubjectCodeEntry { get; set; }
         public string SubjectCodeDisplay { get; set; }
 
@@ -30,7 +32,7 @@ namespace PDC60Module02.ViewModel
                     Subjectcode = SubjectCodeEntry,
                 };
             
-
+             
             SubjectCodeDisplay = SubjectCodeEntry;
             SubjectTitleDisplay= SubjectTitleEntry;
             SubjectUnitDisplay = SubjectUnitEntry;
